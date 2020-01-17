@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, scale=1">
+
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="loading">
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="wrapper">
+  <div class="loader">
+    Loading...
+  </div>
+  <section>
+    <form class="app">
+    <div class="partition_products">
+      <h2 class="h2 products-head">Shopping cart</h2>
+      <div class="products-content">
+        <table class="table products" id="shopping_cart">
+          <tbody>
+          <tr>
+            <th class="th" colspan="2">Product details</th>
+            <th class="th">Quantity</th>
+            <th class="th">Price</th>
+            <th class="th">Total</th>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="partition_checkout">
+      <h2 class="h2 checkout-head">Order Summary</h2>
+      <div class="checkout-content">
+        <p id="total_items" class="total_items"></p>
+      </div>
+      <div class="checkout-footer">
+        <p class="total"><span>Total cost</span> <span id="totalCost" class="bold">0</span></p>
+        <button id="checkout" type="submit" class="button checkout">Checkout</button>
+      </div>
+    </div>
+    </form>
+  </section>
+</div>
+
+<script src="js/discounts.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
